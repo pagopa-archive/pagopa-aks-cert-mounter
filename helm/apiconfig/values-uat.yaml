@@ -7,10 +7,8 @@ cert-mounter-blueprint:
     create: true
 
   kvCertificatesName:
-    - mock-certificate
-    - fake-cert
-    - dev01-rtd-internal-dev-cstar-pagopa-it
+    - weuuat-apiconfig-internal-uat-platform-pagopa-it
 
   keyvault:
-    name: "cstar-u-rtd-kv"
+    name: "pagopa-u-apiconfig-kv"
     tenantId: "7788edaf-0346-4068-9d79-c868aed15b3d"
