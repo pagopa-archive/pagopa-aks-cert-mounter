@@ -1,6 +1,6 @@
 apiVersion: v2
-name: selfcare-pnpg-cert-mounter
-description: cert mounter for pnpg
+name: pagopa-apiconfig-cert-mounter
+description: cert mounter for apiconfig
 type: application
 version: 1.0.0
 appVersion: 1.0.0
