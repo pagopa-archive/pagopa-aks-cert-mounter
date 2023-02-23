@@ -1,4 +1,4 @@
-# selfcare-aks-cert-mounter
+# pagopa-aks-cert-mounter
 
 This project allows to load certificate from KV, that must be used be ingress
 
@@ -12,7 +12,7 @@ see. <https://github.com/pagopa/aks-helm-cert-mounter-blueprint> as source for t
 helm repo add cert-mounter-blueprint https://pagopa.github.io/aks-helm-cert-mounter-blueprint
 ```
 
-## Launch project (from domain folder e.g.: helm/pnpg)
+## Launch project (from domain folder e.g.: helm/apiconfig)
 
 ### 1️⃣ Install dependencies
 
@@ -27,5 +27,5 @@ helm dep build
 ```sh
 helm upgrade -i -n <namespace name> -f <file with values> <name of the helm chart> <chart folder>
 
-helm upgrade -i -n pnpg -f values-dev.yaml cert-mounter \. --debug
+helm upgrade -i -n apiconfig -f values-dev.yaml cert-mounter \. --debug
 ```
